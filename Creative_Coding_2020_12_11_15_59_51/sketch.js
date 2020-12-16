@@ -14,13 +14,15 @@ function draw() {
   
     //translated origin point
     translate(30,30);
-    //dividing canvas to be a squre
-    var width = 720-2*30;
-    var height = 720-2*30;
+
+	createCanvas(innerWidth, innerHeight);
+    //dividing canvas to be a sqaure
+    var width = innerWidth-2*30;
+    var height = innerWidth-2*30;
   
     var space = 20;
     var shift= 5;
-    var numSquares =30;
+    var numSquares =250;
 
     // ammount of space needed to translate x and y
     //calculating how large each square should be given the amount of sqres you want
