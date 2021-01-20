@@ -13,7 +13,7 @@ function draw() {
     //+ydirection = down
   
     //translated origin point
-    translate(30,30);
+    translate(30,0);
     //dividing canvas to be a squre
     var width = innerWidth-2*30;
     var height = innerWidth-2*30;
@@ -96,16 +96,7 @@ function draw() {
         
     }
  
-  // A design for a simple flower
-  /*
-  translate(width/2, height/2);
-  noStroke();
-  for (let i = 0; i < 10; i ++) {
-    ellipse(0, 30, 20, 80);
-    fill(Math.random()*255+1,Math.random()*255+1,Math.random()*255+1);
-    rotate(PI/5);
-  }
-  */
+  
   
   
   
