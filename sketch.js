@@ -58,10 +58,12 @@ function draw() {
           
             var a = -4*(min-max)/Math.pow(width,2);
             var b = 4*(min-max)/width;
+
             //console.log((a * Math.pow(x,2) - a*x + max));
           
             var xBlue = (a * Math.pow(x,2) + b*x + max);
             var yBlue = (a * Math.pow(y,2) + b*y + max);
+
             //var xSq = Math.pow(x,2);
             //var ySq = Math.pow(y,2);;  
             //var r = Math.sqrt((xSq + ySq));
@@ -71,6 +73,7 @@ function draw() {
             //fill (0,0, Math.max(xBlue,yBlue));
              //fill (50, Math.max(xBlue,yBlue), 50);
             //fill (randColor1,randColor2,Math.max(xBlue,yBlue));
+
             fill (Math.max(xBlue,yBlue),randColor1,randColor2);
            
          
