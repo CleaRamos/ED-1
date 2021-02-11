@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Poppins:wght@100;200;300;400;600;700;800&family=Roboto+Mono:wght@300;400;500;600&family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+   
+   <style>
+	h1{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		text-shadow: 2px 2px 5px #34568B;
+		padding: 5px
+	}
+
+	h3{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		padding: 5px;
+		
+	}
+	h4{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		padding: 5px;
+		
+		
+	}
+	
+	body {
+		background-color: white;
+		font-family: 'Roboto Condensed', monospace;
+		font-size: 20px;
+		padding: 10px;
+		font-weight: 300px;
+
+	}
+
+	.center{
+		text-align:center;
+		margin: auto;
+	}
+	
+	table, td, th {
+		margin: auto
+		width: 100%;
+		border-collapse: collapse;
+		border: 3px solid orange;
+		padding: 10px;
+		font-size: 15px;
+	}
+
+	#single td, #single th {
+		border: 3px solid red;
+		padding: 10px;
+		font-size: 20px;
+		font-style: italic;	
+	}
+	#single {
+		margin: auto;
+		width: auto;
+  		border-collapse: collapse;
+		border: 3px solid orange;
+	}	
+
+
+
+   </style>
+
+
+</head>
+
+<body>
+
+<! link for back button>
+	<a href = "../index.html"> <img src = "../HomeButtonLogo.jpg" alt = "home button" style = "width: 100px; height 25px"> </a>
+
+	<div style = "background-color: #ff8000" >
+		<h1> Teardown Investigation </h1>
+	</div>
+	
+
+	<p class="center" > Clea Ramos - E&D I - January 2021 </p>	
+
+	<div style = "background-color: #ff8000" >
+		<h3> Overview </h3>
+	</div>
+
+	<p> For this investigation, we each took apart an electronic object in order to analyze and learn more about electronic components. </p>
+
+	<div style = "background-color: #ff8000" >
+		<h3> Components </h3>
+	</div>
+
+	<table>
+	<tr>
+	<th> <img class = "center" src = "TeardownComponents.JPG" alt = Teardown Components" style = "width:50%; height: 25%" > </th>
+	</tr>
+	</table>
+
+	<ol> 
+	<li> <a href = "#PCB"> Printed Circuit Board (PCB) </a> </li>
+	<li> <a href = "#Motor"> Motor </a> </li>
+	<li> <a href = "#LED"> LED </a> </li>
+	<li> <a href = "#Button"> Button </a> </li>
+	<li> <a href = "#Battery"> Battery & Battery Holder </a> </li>
+	</ol>
+	
+	<ul>
+	<li> <a href = "#LED"> figure A: foot of massager (see LED)</a> </li>
+	<li> <a href = "#Button"> figure B: circular board (see Button)</a> </li>
+	<li> <a href = "#Button"> figure C: (see Button)</a> </li>
+
+
+	</ul>
+
+<! -- PCB --------------------------------------------------------------------------- -->
+	
+<div style = "background-color: #ff8000">
+		<h4 id="PCB">  1. Printed Circuit Board (PCB) </h4>
+	</div>
+
+	<p> A printed circuit board (PCB) is a plastic and glass board with embedded copper lines that directs electricity. PCB allows for electricity to flow in one direction, from the energy source to attached electrical components. This PCB is connected to the the motor, the LEDs, and the battery holder via soldered wires. The back of the circuit board is labeled that show where the wires lead (ex/"LED2" leads to an LED while "MOTO" leads to the motor). The PCB is also has resistors tabled R1 and R2 that limit the flow of electrons in the circuit.
+</p>
+	
+	
+	<table class = "center">
+		<tr> 
+			<th> <img src = "CircuitWComponents.JPG" alt = "Circuit with Components" style = "width:330px; height: 230px"> </th>
+			<th> <img src = "CircuitFront.JPG" alt = "CircuitFront" style = "width:330px; height: 230px"> </th>
+			<th> <img src = "CircuitBack.JPG" alt = "CircuitBack" style = "width:330px; height: 230px"> </th>
+		</tr>
+		<tr> 
+		
+			<th> Circuit Board with electrical components  </th>
+			<th> Circuit Board Front </th>
+			<th> Circuit Board Back </th>
+		
+		</tr>
+	</table>
+	
+	<br></br>
+
+
+<! -- MOTOR--------------------------------------------------------------------------- -->
+
+	<div style = "background-color: #ff8000">
+		<h4 id = "Motor"> 2. Motor </h4>
+	</div>
+
+	<p> This Brushed DC Motor generates the vibrating motion of the massager, and it is composed of coils (in the interior of the motor) and two spring-loaded brushes (in the cap of the motor). When current is passed through the motor, the coils act as an electromagnet magnet; they rotate within the motor creating a spinning motion. The brushes on each side of the cap help to maintain the continuous current as the coils spin. </p>
+
+
+	<table class = "center">
+	<tbody>
+		<tr> 
+			<th> <img src = "motor.JPG" alt = "motor" style = "width:300px; height: 225px" ></th>
+			<th> <img src = "motor&cap.JPG" alt = "motor&cap" style = "width:300px; height: 225px"> </th>
+		</tr>
+		<tr>
+			<th> Brushed DC Motor (side view) </th>
+			<th> Interior of Motor and cap</th>
+		</tr>	
+	</tbody>
+	</table>
+
+	<br></br>
+
+
+
+<! -- LED ---------------------------------------------------------------------------- -->
+
+<div style = "background-color: #ff8000">
+		<h4 id = "LED"> 3. LED </h4>
+	</div>
+	
+	<p> Light emitting diode that allows for the flow of current in one direction. Each of the LEDs are connected to the PCB via wires. There is one LED in each foot of the massager (figure A). When the massager is turned on, the LEDs glow.
+
+</p>
+
+	<table class = "center">
+		<tr> 
+			<th> <img src = "LED.JPG" alt = "LED" style = "width:300px; height: 270px"> </th>
+		</tr>
+		<tr> 
+		
+			<th>  LED from inside of the Massager leg </th>
+		
+		</tr>
+
+	</table>
+
+	<br></br>	
+
+
+<! -- BUTTON------------------------------------------------------------------------- -->
+
+	<div style = "background-color: #ff8000">
+		<h4 id = "Button"> 4. Button </h4>
+	</div>
+
+	<p> When the button pushed once, the massager vibrates and the LEDs in the feet turn on. When the button is pushed again, the massager turns off. The plastic button sits on a metal spring that pushes on a circular board lined with metal strips (figure B). The metal strips come in contact with metal pins on the battery holder (figure C), which are connected to the PCB and the batteries via wires. This completes the electrical circuit, allowing for current to flow. 
+</p>
+
+	<table class = "center">
+		<tr> 
+			<th> <img src = "button.jpg" alt = "button" style = "width:230px; height: 130px"> </th>
+		</tr>
+		<tr> 
+		
+			<th>  Plastic button and spring </th>
+		
+		</tr>
+	</table>
+
+	<br></br>
+	
+
+<! -- BATTERY ------------------------------------------------------------------------ -->
+
+
+	<div style = "background-color: #ff8000">
+		<h4 id = "Battery"> 5. Battery & Battery Holder </h4>
+	</div>
+
+	<p> Batteries store chemical energy and convert it to electrical energy. When a battery is attached to conductors like the springs and wires in the battery holder, chemical reactions occur which cause electrons to flow from the negative end of the battery to the PCB, the LEDs, the motor, and back to the positive end of the battery.
+</p>
+
+	<table class = "center">
+		<tr> 
+			<td> <img src = "FrontBattery.JPG" alt = "BatteryFront" style = "width: 330px; height: 230px"> </td>
+			<td> <img src = "BackBattery.JPG" alt = "BatteryBack" style = "width:330px; height: 230px"> </td>
+			<td> <img src = "Batteries.JPG" alt = "Batteries" style = "width:330px; height: 230px"> </td>
+		</tr>
+		<tr> 
+		
+			<th> Front of Battery holder  </th>
+			<th> Back of Battery holder </th>
+			<th> Batteries </th>
+		
+		</tr>
+	</table>
+
+
+	<br></br>
+
+<! -- BATTERY ------------------------------------------------------------------------ -->
+
+	<div style = "background-color: #ff8000">
+		<h4> Sources </h4>
+	</div>
+	
+	<ul> 
+	<li> <a target = "_blank" href = "https://www.pcbtrain.co.uk/blog/the-basics-of-printed-circuit-boards-design-components-and-construction"> The Basics of Printed Circuit Boards: Design, Components, and Construction </a> </li>
+	<li> <a target = "_blank" href = "https://learn.sparkfun.com/tutorials/resistors/all"> Resistors </a>
+
+	<li> <a target = "_blank" href = "https://learn.adafruit.com/adafruit-motor-selection-guide?view=all"> Ada Fruit Motor Selection Guide </a> </li>
+	
+	<li> <a target = "_blank" href = "https://www.youtube.com/watch?v=CWulQ1ZSE3c"> How does an Electric Motor work? (DC Motor)  </a> </li>
+
+	<li> <a target = "_blank" href = "https://learn.adafruit.com/all-about-leds/what-is-an-led"> What is an LED?</a> </li>
+
+	<li> <a target = "_blank" href = "https://sciencing.com/push-switches-work-electrical-circuit-5030234.html"> How do Push Button Switches Work in an Electrical Circuit? </a> </li>
+
+	<li> <a target = "_blank" href = "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php
+">  Electricity explained, Batteries, circuits, and transformers </a> </li>
+
+	</ul>
+
+</body>
+
+
+
+</html>
+
