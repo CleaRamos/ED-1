@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+ <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Poppins:wght@100;200;300;400;600;700;800&family=Roboto+Mono:wght@300;400;500;600&family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+
+    <style>
+	h1{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		text-shadow: 2px 2px 5px #34568B;
+		padding: 5px
+	}
+	h2{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		text-align: center;
+		text-shadow: 2px 2px 5px #34568B;
+		padding: 5px
+	}
+
+	h3{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		padding: 5px;
+		
+	}
+	h4{
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		padding: 5px;
+		
+		
+	}
+	
+	body {
+		background-color: white;
+		font-family: 'Roboto Condensed', monospace;
+		font-size: 20px;
+		padding: 10px;
+		font-weight: 300px;
+
+	}
+
+	.center{
+		text-align:center;
+		margin: auto;
+	}
+	
+	table, td, th {
+		margin: auto;
+		border-collapse: collapse;
+		border: 3px solid #9ACD32;
+		padding: 10px;
+		font-size: 15px;
+	}
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+<! link for back button>
+	<a href = "../index.html"> <img src = "../HomeButtonLogo.jpg" alt = "home button" style = "width: 100px; height 25px"> </a>
+
+	<div style = "background-color: #9ACD32" >
+		<h1> Petting Zoo </h1>
+	</div>
+
+	<div class = "center">
+		<p> Clea Joy Ramos -  E&D I - April 2021 </p>
+	</div>
+
+	<div style = "background-color:#9ACD32" >
+		<h3> Overview </h3>
+	</div>
+
+	<p> In this project, we creatively explored the functions of a Microbit to create an interactive animal. </p>
+
+	<div style = "background-color:#9ACD32" >
+		<h3> Process </h3>
+	</div>
+	<p>My partner Lucas Pombo and I began this project by first coding the Microbit and attaching it to the motor. We coded the Microbit using coding blocks on <i>Microsoft MakeCode.</i> Initially, we coded for the motor arm to move 180 degrees. After uploading our code to the Microbit, we tested the motion of the motor and temporarily attached the motor and the arm to one of the flaps of our assembled cardboard box. After seeing the motion of the cardboard flap, I came up with the idea of making a bee. The flapping motion could be used as the bee's wings. We embraced the boxy shape of the cardboard by making a Minecraft bee. 
+<br> </br>
+Once we chose our animal inspiration, we tackled the configuration of the motors within the box in order to create a flapping motion. Lucas had the idea of using a two-sided arm attached to the motor. He placed the motor inside the box and cut a hole for one side of the motor's arm to rotate outside of the box. Then, he used paper clips and rubber bands to extend the motor arm's motion to the inside and the outside cardboard flap. One side of the motor arm was connected to the inner flap, while the other side of the motor arm poked out of the side hole and connected to the outer face of the flap. So, when the motor rotated the arm about 180 degrees, one arm and rubberband would be pulled while the other rubber band would be slack, therefore causing the cardboard flap to move inwards or outwards. We replicated the motor and wing position on the other side of the be by adding another Microbit, motor, and battery pack. 
+
+<br> </br>
+After testing and confirming the motion of our bee, I decorated it with shades of yellow and brown construction paper squares to mimic the pixelated pattern of the Minecraft bees. I also added white and clear square panels for the wings and added features to the face with construction paper. </p>
+
+	<table>
+		<tr> 
+		<td> <img src = "BeeCodeMotor.png" alt = "" style = "width: px; height: px;"> </td>
+		<td> <img src = "BeeInspo.webp" alt = "BeeGif" style = "width: px; height: px;"> </td>
+		<td> <img src = "InsideBee.JPG" alt = "" style = "width: 262px; height:350 px;"> </td>
+		</tr> 
+		<tr> 
+		<th> Microbit Code </th>
+		<th> Inspiration for bee</th>
+		<th> Inside of our cardboard bee</th>
+		</tr>
+	</table>
+
+<br> </br>
+
+<div style = "background-color:#9ACD32" >
+		<h3> Challenges and Difficulties </h3>
+	</div>
+	<p> 
+	One difficulty we encountered was perfecting the motion of the wings. We tested many different methods and formations of the motor and motor arm to get the full motion of a flapping bee wing. We first started off with a one armed motor, but then switched to a double armed motor so that we could attach paper clips to either end resulting in two opposing motions: up and down. This way we were able to achieve the up and down flapping motion of a wing. Furthermore, we had trouble finding the right amount of tension and slack to apply to the rubber bands in order to get a tight enough band to pull the wing down, but a loose enough configuration to let the wing be pulled back up. We solved this issue by using the same rubber bands for all of the wings and we added tension by tying knots in the band to shorten its length.
+<br> </br>
+	Another difficulty we encountered was learning how to use the microbic. After uploading our code onto the Microbit, we tried testing our motor, but we did not see any movement. We then noticed that our code had some difficulties uploading to the Microbit, but after a few tries of rue-loading, our Microbit eventually worked. However, we noticed that the arm of the motor was rotating more than the 180 degrees that we had instructed it to do in our code. First, we altered the motor's motion by adjusting the tightness of the screw that attached the arm to the motor. Afterwards, we adjusted our code to turn to 150 degrees instead of 180 degrees so that the arm would not over rotate. Overall, we were able to conquer many of our difficulties through trial and error to see what methods worked best.
+ </p>
+
+
+<div style = "background-color:#9ACD32" >
+		<h3> Final Product </h3>
+	</div>
+
+	<table>
+	<tr> 
+		<td> <img src = "AysmmetricBee.png" alt = "Aysmmetric view of bee" style = "width: px; height: px;"> </td>
+		<td> <img src = "" alt = "Video of bee" style = "width: px; height: px;"> </td>
+	</tr> 
+	<tr> 
+		<th> Asymmetric view of Vee </th>
+		<th> Video of Bee</th>
+	</tr>
+
+
+
+	</table>
+
+   <br> </br>
+
+
+</body>
+</html>
